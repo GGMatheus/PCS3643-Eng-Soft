@@ -1,83 +1,85 @@
+package Model;
+
 public class Imovel
 {
 	// Atributos
 	int id;
 	float preco;
-	string endereco;
-	string status;		=> Disponivel, Vendido, Alugado
-	string descricao
-	string foto
+	String endereco;
+	String status;
+	String descricao;
+	String foto;
 	
 	// Construtor
-	public Vendedor(int id, float preco, string endereco, string status, string descricao, string foto)
+	public Imovel(int id, float preco, String endereco, String status, String descricao, String foto)
 	{
 		this.id = id;
 		this.preco = preco;
 		this.endereco = endereco;
-		this status = status;
-		this descricao = descricao;
+		this.status = status;
+		this.descricao = descricao;
 		this.foto = foto;
 	}
 
 	// Getters
-	public getId()
+	public int getId()
 	{
 		return id;
 	}
 
-	public getPreco()
+	public float getPreco()
 	{
 		return preco;
 	}
 
-	public getEndereco()
+	public String getEndereco()
 	{
 		return endereco;
 	}
 
-	public getStatus()
+	public String getStatus()
 	{
 		return status;
 	}
 
-	public getDescricao()
+	public String getDescricao()
 	{
 		return descricao;
 	}
 
-	public getFoto()
+	public String getFoto()
 	{
 		return foto;
 	}
 
 	// Setters
-	public setId(int id)
+	public void setId(int id)
 	{
-		this.id = id
+		this.id = id;
 	}
 
-	public setPreco(float preco)
+	public void setPreco(float preco)
 	{
-		this.preco = preco
+		this.preco = preco;
 	}
 
-	public setEndereco(string endereco)
+	public void setEndereco(String endereco)
 	{
-		this.endereco = endereco
+		this.endereco = endereco;
 	}
 
-	public setStatus(string status)
+	public void setStatus(String status)
 	{
-		this.status = status
+		this.status = status;
 	}
 
-	public setDescricao(string descricao)
+	public void setDescricao(String descricao)
 	{
-		this.descricao = descricao
+		this.descricao = descricao;
 	}
 
-	public setFoto(string foto)
+	public void setFoto(String foto)
 	{
-		this.foto = foto
+		this.foto = foto;
 	}
 }
