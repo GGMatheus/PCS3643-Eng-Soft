@@ -1,14 +1,16 @@
+package Model;
+
 public class Visita_Compra
 {
 	// Atributos
 	int idImovel;
 	int idCorretor;
 	int idComprador;
-	string data;
-	string horario;
+	String data;
+	String horario;
 
 	// Construtor
-	public Vendedor(int idImovel, int idCorretor, int IdComprador, string data, string horario)
+	public Visita_Compra(int idImovel, int idCorretor, int idComprador, String data, String horario)
 	{
 		this.idImovel = idImovel;
 		this.idCorretor = idCorretor;
@@ -18,53 +20,53 @@ public class Visita_Compra
 	}
 
 	// Getters
-	public getIdImovel()
+	public int getIdImovel()
 	{
 		return idImovel;
 	}
 
-	public getIdCorretor()
+	public int getIdCorretor()
 	{
 		return idCorretor;
 	}
 
-	public getIdComprador()
+	public int getIdComprador()
 	{
 		return idComprador;
 	}
 
-	public getData()
+	public String getData()
 	{
 		return data;
 	}
 
-	public getHorario()
+	public String getHorario()
 	{
 		return horario;
 	}
 
 	// Setters
-	public setIdImovel(int idImovel)
+	public void setIdImovel(int idImovel)
 	{
 		this.idImovel = idImovel;
 	}
 
-	public setIdCorretor(int idCorretor)
+	public void setIdCorretor(int idCorretor)
 	{
 		this.idCorretor = idCorretor;
 	}
 
-	public setIdComprador(int idComprador)
+	public void setIdComprador(int idComprador)
 	{
 		this.idComprador = idComprador;
 	}
 
-	public setData(string data)
+	public void setData(String data)
 	{
 		this.data = data;
 	}
 
-	public horario(string horario)
+	public void horario(String horario)
 	{
 		this.horario = horario;
 	}
