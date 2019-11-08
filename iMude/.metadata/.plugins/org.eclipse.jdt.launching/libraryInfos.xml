@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?><libraryInfos>
+<libraryInfo home="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java\jre" version="1.6.0">
+<bootpath>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java\jre\bin\default\jclSC160\vm.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java\jre\lib\annotation.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java\jre\lib\beans.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java\jre\lib\java.util.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java\jre\lib\jndi.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java\jre\lib\logging.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java\jre\lib\security.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java\jre\lib\sql.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java\jre\lib\ibmorb.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java\jre\lib\ibmorbapi.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java\jre\lib\ibmcfw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java\jre\lib\rt.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java\jre\lib\charsets.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java\jre\lib\resources.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java\jre\lib\ibmpkcs.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java\jre\lib\ibmcertpathfw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java\jre\lib\ibmjgssfw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java\jre\lib\ibmjssefw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java\jre\lib\ibmsaslfw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java\jre\lib\ibmjcefw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java\jre\lib\ibmjgssprovider.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java\jre\lib\ibmjsseprovider2.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java\jre\lib\ibmcertpathprovider.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java\jre\lib\ibmxmlcrypto.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java\jre\lib\management-agent.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java\jre\lib\xml.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java\jre\lib\jlm.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java\jre\lib\javascript.jar"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java\jre\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\Program Files\IBM\SDP\runtimes\base_v7_stub\java\jre" version="1.6.0">
+<bootpath>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v7_stub\java\jre\bin\default\jclSC160\vm.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v7_stub\java\jre\lib\annotation.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v7_stub\java\jre\lib\beans.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v7_stub\java\jre\lib\java.util.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v7_stub\java\jre\lib\jndi.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v7_stub\java\jre\lib\logging.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v7_stub\java\jre\lib\security.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v7_stub\java\jre\lib\sql.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v7_stub\java\jre\lib\ibmorb.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v7_stub\java\jre\lib\ibmorbapi.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v7_stub\java\jre\lib\ibmcfw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v7_stub\java\jre\lib\rt.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v7_stub\java\jre\lib\charsets.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v7_stub\java\jre\lib\resources.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v7_stub\java\jre\lib\ibmpkcs.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v7_stub\java\jre\lib\ibmcertpathfw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v7_stub\java\jre\lib\ibmjgssfw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v7_stub\java\jre\lib\ibmjssefw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v7_stub\java\jre\lib\ibmsaslfw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v7_stub\java\jre\lib\ibmjcefw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v7_stub\java\jre\lib\ibmjgssprovider.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v7_stub\java\jre\lib\ibmjsseprovider2.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v7_stub\java\jre\lib\ibmcertpathprovider.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v7_stub\java\jre\lib\ibmxmlcrypto.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v7_stub\java\jre\lib\management-agent.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v7_stub\java\jre\lib\xml.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v7_stub\java\jre\lib\jlm.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v7_stub\java\jre\lib\javascript.jar"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v7_stub\java\jre\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v7_stub\java\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\Program Files\IBM\SDP\runtimes\base_v8_stub\java\jre" version="1.6.0">
+<bootpath>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v8_stub\java\jre\bin\default\jclSC160\vm.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v8_stub\java\jre\lib\annotation.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v8_stub\java\jre\lib\beans.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v8_stub\java\jre\lib\java.util.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v8_stub\java\jre\lib\jndi.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v8_stub\java\jre\lib\logging.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v8_stub\java\jre\lib\security.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v8_stub\java\jre\lib\sql.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v8_stub\java\jre\lib\ibmorb.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v8_stub\java\jre\lib\ibmorbapi.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v8_stub\java\jre\lib\ibmcfw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v8_stub\java\jre\lib\rt.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v8_stub\java\jre\lib\charsets.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v8_stub\java\jre\lib\resources.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v8_stub\java\jre\lib\ibmpkcs.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v8_stub\java\jre\lib\ibmcertpathfw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v8_stub\java\jre\lib\ibmjgssfw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v8_stub\java\jre\lib\ibmjssefw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v8_stub\java\jre\lib\ibmsaslfw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v8_stub\java\jre\lib\ibmjcefw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v8_stub\java\jre\lib\ibmjgssprovider.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v8_stub\java\jre\lib\ibmjsseprovider2.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v8_stub\java\jre\lib\ibmcertpathprovider.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v8_stub\java\jre\lib\ibmxmlcrypto.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v8_stub\java\jre\lib\management-agent.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v8_stub\java\jre\lib\xml.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v8_stub\java\jre\lib\jlm.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v8_stub\java\jre\lib\javascript.jar"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v8_stub\java\jre\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v8_stub\java\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\Program Files\IBM\SDP\jdk" version="1.8.0">
+<bootpath>
+<entry path="C:\Program Files\IBM\SDP\jdk\jre\lib\endorsed\jaxws-api.jar"/>
+<entry path="C:\Program Files\IBM\SDP\jdk\jre\lib\endorsed\jaxb-api.jar"/>
+<entry path="C:\Program Files\IBM\SDP\jdk\jre\lib\endorsed\javax.j2ee.annotation.jar"/>
+<entry path="C:\Program Files\IBM\SDP\jdk\jre\bin\compressedrefs\jclSC180\vm.jar"/>
+<entry path="C:\Program Files\IBM\SDP\jdk\jre\lib\se-service.jar"/>
+<entry path="C:\Program Files\IBM\SDP\jdk\jre\lib\cuda4j.jar"/>
+<entry path="C:\Program Files\IBM\SDP\jdk\jre\lib\math.jar"/>
+<entry path="C:\Program Files\IBM\SDP\jdk\jre\lib\ibmorb.jar"/>
+<entry path="C:\Program Files\IBM\SDP\jdk\jre\lib\ibmorbapi.jar"/>
+<entry path="C:\Program Files\IBM\SDP\jdk\jre\lib\ibmcfw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\jdk\jre\lib\ibmpkcs.jar"/>
+<entry path="C:\Program Files\IBM\SDP\jdk\jre\lib\ibmcertpathfw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\jdk\jre\lib\ibmjgssfw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\jdk\jre\lib\ibmjssefw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\jdk\jre\lib\ibmsaslfw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\jdk\jre\lib\ibmjcefw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\jdk\jre\lib\ibmjgssprovider.jar"/>
+<entry path="C:\Program Files\IBM\SDP\jdk\jre\lib\ibmjsseprovider2.jar"/>
+<entry path="C:\Program Files\IBM\SDP\jdk\jre\lib\ibmcertpathprovider.jar"/>
+<entry path="C:\Program Files\IBM\SDP\jdk\jre\lib\xmldsigfw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\jdk\jre\lib\xml.jar"/>
+<entry path="C:\Program Files\IBM\SDP\jdk\jre\lib\charsets.jar"/>
+<entry path="C:\Program Files\IBM\SDP\jdk\jre\lib\resources.jar"/>
+<entry path="C:\Program Files\IBM\SDP\jdk\jre\lib\rt.jar"/>
+<entry path="C:\Program Files\IBM\SDP\jdk\jre\lib\dataaccess.jar"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\IBM\SDP\jdk\jre\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\IBM\SDP\jdk\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\Program Files\IBM\SDP\runtimes\base_v9_stub\java\8.0\jre" version="1.8.0">
+<bootpath>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v9_stub\java\8.0\jre\bin\compressedrefs\jclSC180\vm.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v9_stub\java\8.0\jre\lib\se-service.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v9_stub\java\8.0\jre\lib\cuda4j.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v9_stub\java\8.0\jre\lib\math.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v9_stub\java\8.0\jre\lib\ibmorb.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v9_stub\java\8.0\jre\lib\ibmorbapi.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v9_stub\java\8.0\jre\lib\ibmcfw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v9_stub\java\8.0\jre\lib\ibmpkcs.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v9_stub\java\8.0\jre\lib\ibmcertpathfw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v9_stub\java\8.0\jre\lib\ibmjgssfw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v9_stub\java\8.0\jre\lib\ibmjssefw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v9_stub\java\8.0\jre\lib\ibmsaslfw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v9_stub\java\8.0\jre\lib\ibmjcefw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v9_stub\java\8.0\jre\lib\ibmjgssprovider.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v9_stub\java\8.0\jre\lib\ibmjsseprovider2.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v9_stub\java\8.0\jre\lib\ibmcertpathprovider.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v9_stub\java\8.0\jre\lib\xmldsigfw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v9_stub\java\8.0\jre\lib\xml.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v9_stub\java\8.0\jre\lib\charsets.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v9_stub\java\8.0\jre\lib\resources.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v9_stub\java\8.0\jre\lib\rt.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v9_stub\java\8.0\jre\lib\dataaccess.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v9_stub\java\8.0\jre\lib\ibmgpu.jar"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v9_stub\java\8.0\jre\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v9_stub\java\8.0\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java_1.7_64\jre" version="1.7.0">
+<bootpath>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java_1.7_64\jre\bin\default\jclSC170\vm.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java_1.7_64\jre\lib\se-service.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java_1.7_64\jre\lib\math.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java_1.7_64\jre\lib\jlm.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java_1.7_64\jre\lib\ibmorb.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java_1.7_64\jre\lib\ibmorbapi.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java_1.7_64\jre\lib\ibmcfw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java_1.7_64\jre\lib\ibmpkcs.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java_1.7_64\jre\lib\ibmcertpathfw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java_1.7_64\jre\lib\ibmjgssfw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java_1.7_64\jre\lib\ibmjssefw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java_1.7_64\jre\lib\ibmsaslfw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java_1.7_64\jre\lib\ibmjcefw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java_1.7_64\jre\lib\ibmjgssprovider.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java_1.7_64\jre\lib\ibmjsseprovider2.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java_1.7_64\jre\lib\ibmcertpathprovider.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java_1.7_64\jre\lib\xmldsigfw.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java_1.7_64\jre\lib\xml.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java_1.7_64\jre\lib\charsets.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java_1.7_64\jre\lib\resources.jar"/>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java_1.7_64\jre\lib\rt.jar"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java_1.7_64\jre\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\IBM\SDP\runtimes\base_v85_stub\java_1.7_64\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

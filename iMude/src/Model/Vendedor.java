@@ -1,13 +1,15 @@
+package Model;
+
 public class Vendedor
 {
 	// Atributos
 	int id;
-	string nome;
-	string email;
-	string CPF;
+	String nome;
+	String email;
+	String CPF;
 
 	// Construtor
-	public Vendedor(int id, string nome, string email, string CPF)
+	public Vendedor(int id, String nome, String email, String CPF)
 	{
 		this.id = id;
 		this.nome = nome;
@@ -16,44 +18,44 @@ public class Vendedor
 	}
 
 	// Getters
-	public getId()
+	public int getId()
 	{
 		return id;
 	}
 
-	public getNome()
+	public String getNome()
 	{
 		return nome;
 	}
 
-	public getEmail()
+	public String getEmail()
 	{
 		return email;
 	}
 
-	public getCPF()
+	public String getCPF()
 	{
 		return CPF;
 	}
 
 	// Setters
-	public setId(int id)
+	public void setId(int id)
 	{
-		this.id = id
+		this.id = id;
 	}
 
-	public setNome(int nome)
+	public void setNome(String nome)
 	{
-		this.nome = nome
+		this.nome = nome;
 	}
 
-	public setEmail(int email)
+	public void setEmail(String email)
 	{
-		this.email = email
+		this.email = email;
 	}
 
-	public setCPF(int CPF)
+	public void setCPF(String CPF)
 	{
-		this.CPF = CPF
+		this.CPF = CPF;
 	}
 }

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><?pde version="3.8"?><target name="WebSphere Application Server traditional V8.0 stub" sequenceNumber="0">
+<locations>
+<location path="C:/Program Files/IBM/SDP/runtimes/base_v8_stub/dev" type="Directory"/>
+<location path="C:/Program Files/IBM/SDP/runtimes/base_v8_stub/dev/JavaEE" type="Directory"/>
+<location path="C:/Program Files/IBM/SDP/runtimes/base_v8_stub/dev/osgi/4.2" type="Directory"/>
+<location path="C:/Users/10337276/Desktop/iMude/PCS3643-Eng-Soft/iMude/.metadata/.plugins/com.ibm.etools.aries.core/system/" type="Directory"/>
+</locations>
+</target>
