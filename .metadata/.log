@@ -1,0 +1,268 @@
+!SESSION 2019-11-08 16:29:00.324 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.8.0 IBM J9 2.8 Windows 10 amd64-64 Compressed References 20160719_312156 (JIT enabled, AOT enabled)
+J9VM - R28_Java8_SR3_20160719_1144_B312156
+JIT  - tr.r14.java_20160629_120284.01
+GC   - R28_Java8_SR3_20160719_1144_B312156_CMPRSS
+J9CL - 20160719_312156
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product com.ibm.rational.rsa.product.v96.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ibm.rational.rsa.product.v96.ide
+
+!ENTRY org.eclipse.emf.ecore 2 0 2019-11-08 16:29:22.226
+!MESSAGE Both 'com.ibm.xtools.rit.model' and 'com.ibm.xtools.wadl.model' register a package for 'http://rational.software.architect'
+
+!ENTRY org.eclipse.ui.workbench 4 2 2019-11-08 16:29:22.413
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NoSuchMethodError: org/eclipse/core/runtime/IExtension.getDeclaringPluginDescriptor()Lorg/eclipse/core/runtime/IPluginDescriptor; (loaded from file:/C:/Program Files/IBM/SDP/../IBMIMShared/plugins/org.eclipse.equinox.registry_3.6.100.v20160223-2218.jar by org.eclipse.osgi.internal.loader.EquinoxClassLoader@50aa9b11[org.eclipse.equinox.registry:3.6.100.v20160223-2218(id=2608)]) called from class com.ibm.ccl.common.splash.ExtensibleSplashHandler (loaded from file:/C:/Program Files/IBM/SDP/../IBMIMShared/plugins/com.ibm.ccl.common.splash_1.0.3.v20150527_1602.jar by org.eclipse.osgi.internal.loader.EquinoxClassLoader@55508164[com.ibm.ccl.common.splash:1.0.3.v20150527_1602(id=73)]).
+	at com.ibm.ccl.common.splash.ExtensibleSplashHandler.init(ExtensibleSplashHandler.java:155)
+	at com.ibm.ccl.common.splash.ExtensibleSplashHandler.init(ExtensibleSplashHandler.java:857)
+	at org.eclipse.ui.internal.Workbench$6.run(Workbench.java:873)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench.createSplashWrapper(Workbench.java:888)
+	at org.eclipse.ui.internal.Workbench.access$6(Workbench.java:810)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:656)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:508)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+
+!ENTRY org.eclipse.ui 4 0 2019-11-08 16:29:22.413
+!MESSAGE Could not instantiate splash
+!STACK 0
+java.lang.NoSuchMethodError: org/eclipse/core/runtime/IExtension.getDeclaringPluginDescriptor()Lorg/eclipse/core/runtime/IPluginDescriptor; (loaded from file:/C:/Program Files/IBM/SDP/../IBMIMShared/plugins/org.eclipse.equinox.registry_3.6.100.v20160223-2218.jar by org.eclipse.osgi.internal.loader.EquinoxClassLoader@50aa9b11[org.eclipse.equinox.registry:3.6.100.v20160223-2218(id=2608)]) called from class com.ibm.ccl.common.splash.ExtensibleSplashHandler (loaded from file:/C:/Program Files/IBM/SDP/../IBMIMShared/plugins/com.ibm.ccl.common.splash_1.0.3.v20150527_1602.jar by org.eclipse.osgi.internal.loader.EquinoxClassLoader@55508164[com.ibm.ccl.common.splash:1.0.3.v20150527_1602(id=73)]).
+	at com.ibm.ccl.common.splash.ExtensibleSplashHandler.init(ExtensibleSplashHandler.java:155)
+	at com.ibm.ccl.common.splash.ExtensibleSplashHandler.init(ExtensibleSplashHandler.java:857)
+	at org.eclipse.ui.internal.Workbench$6.run(Workbench.java:873)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench.createSplashWrapper(Workbench.java:888)
+	at org.eclipse.ui.internal.Workbench.access$6(Workbench.java:810)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:656)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:508)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+
+!ENTRY org.eclipse.ui 4 0 2019-11-08 16:29:22.413
+!MESSAGE Error occurred during status handling
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.internal.statushandlers.StatusHandlerRegistry.addExtension(StatusHandlerRegistry.java:104)
+	at org.eclipse.ui.internal.statushandlers.StatusHandlerRegistry.<init>(StatusHandlerRegistry.java:69)
+	at org.eclipse.ui.internal.statushandlers.StatusHandlerRegistry.getDefault(StatusHandlerRegistry.java:91)
+	at org.eclipse.ui.statushandlers.StatusManager.getStatusHandler(StatusManager.java:145)
+	at org.eclipse.ui.statushandlers.StatusManager.handle(StatusManager.java:204)
+	at org.eclipse.ui.statushandlers.StatusManager.handle(StatusManager.java:246)
+	at org.eclipse.ui.statushandlers.StatusManager.handle(StatusManager.java:257)
+	at org.eclipse.ui.internal.Workbench$6.handleException(Workbench.java:878)
+	at org.eclipse.core.runtime.SafeRunner.handleException(SafeRunner.java:75)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:46)
+	at org.eclipse.ui.internal.Workbench.createSplashWrapper(Workbench.java:888)
+	at org.eclipse.ui.internal.Workbench.access$6(Workbench.java:810)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:656)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:508)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+
+!ENTRY org.eclipse.ui 4 4 2019-11-08 16:29:23.585
+!MESSAGE Unable to process element: view in perspective extension: null
+
+!ENTRY org.eclipse.ui 4 4 2019-11-08 16:29:23.585
+!MESSAGE Unable to process element: view in perspective extension: null
+
+!ENTRY com.ibm.etools.common.migration 4 0 2019-11-08 16:29:26.256
+!MESSAGE Extension: migration plug-in: com.ibm.etools.portlet.migration id= com.ibm.etools.portlet.migration.internal.UnresolvedRuntimeMigrationOperator defines a dependsOn for id: com.ibm.ws.ast.st.migration.internal.migrator.UnresolvedRuntimeMigrator which does not exist
+
+!ENTRY com.ibm.etools.common.migration 4 0 2019-11-08 16:29:26.256
+!MESSAGE migrator: com.ibm.etools.portlet.migration.internal.UnresolvedRuntimeMigrationOperation is disabled until the problem is corrected
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-11-08 16:29:26.490
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\9345126'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.ibm.xtools.emf.ram.ui 4 0 2019-11-08 16:29:27.100
+!MESSAGE RAM Client is not installed. Please install the RAM Client to enable the RAM integration functionality.
+
+!ENTRY org.eclipse.wst.common.project.facet.ui 4 0 2019-11-08 16:29:53.437
+!MESSAGE Runtime component type org.cloudfoundry.appcloudserver has not been defined. It is used in plugin org.eclipse.cft.server.ui.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-11-08 16:30:14.698
+!MESSAGE Connection to http://www.pramati.com/downloads/eclipse/updates/site.xml failed on com.ibm.jsse2.util.h: PKIX path building failed: java.security.cert.CertPathBuilderException: PKIXCertPathBuilderImpl could not build a valid CertPath.; internal cause is: 
+	java.security.cert.CertPathValidatorException: The certificate issued by CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US is not trusted; internal cause is: 
+	java.security.cert.CertPathValidatorException: Certificate chaining error. Retry attempt 0 started
+!STACK 0
+javax.net.ssl.SSLHandshakeException: com.ibm.jsse2.util.h: PKIX path building failed: java.security.cert.CertPathBuilderException: PKIXCertPathBuilderImpl could not build a valid CertPath.; internal cause is: 
+	java.security.cert.CertPathValidatorException: The certificate issued by CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US is not trusted; internal cause is: 
+	java.security.cert.CertPathValidatorException: Certificate chaining error
+	at com.ibm.jsse2.j.a(j.java:12)
+	at com.ibm.jsse2.as.a(as.java:118)
+	at com.ibm.jsse2.C.a(C.java:193)
+	at com.ibm.jsse2.C.a(C.java:245)
+	at com.ibm.jsse2.D.a(D.java:242)
+	at com.ibm.jsse2.D.a(D.java:56)
+	at com.ibm.jsse2.C.r(C.java:69)
+	at com.ibm.jsse2.C.a(C.java:580)
+	at com.ibm.jsse2.as.a(as.java:512)
+	at com.ibm.jsse2.as.i(as.java:969)
+	at com.ibm.jsse2.as.a(as.java:176)
+	at com.ibm.jsse2.h.write(h.java:36)
+	at org.apache.http.impl.io.AbstractSessionOutputBuffer.flushBuffer(AbstractSessionOutputBuffer.java:159)
+	at org.apache.http.impl.io.AbstractSessionOutputBuffer.flush(AbstractSessionOutputBuffer.java:166)
+	at org.apache.http.impl.AbstractHttpClientConnection.doFlush(AbstractHttpClientConnection.java:272)
+	at org.apache.http.impl.AbstractHttpClientConnection.flush(AbstractHttpClientConnection.java:277)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.flush(AbstractClientConnAdapter.java:201)
+	at org.apache.http.protocol.HttpRequestExecutor.doSendRequest(HttpRequestExecutor.java:239)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.jsse2.util.h: PKIX path building failed: java.security.cert.CertPathBuilderException: PKIXCertPathBuilderImpl could not build a valid CertPath.; internal cause is: 
+	java.security.cert.CertPathValidatorException: The certificate issued by CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US is not trusted; internal cause is: 
+	java.security.cert.CertPathValidatorException: Certificate chaining error
+	at com.ibm.jsse2.util.f.a(f.java:35)
+	at com.ibm.jsse2.util.f.b(f.java:96)
+	at com.ibm.jsse2.util.e.a(e.java:19)
+	at com.ibm.jsse2.aA.a(aA.java:132)
+	at com.ibm.jsse2.aA.a(aA.java:39)
+	at com.ibm.jsse2.aA.checkServerTrusted(aA.java:27)
+	at com.ibm.jsse2.D.a(D.java:110)
+	... 23 more
+Caused by: java.security.cert.CertPathBuilderException: PKIXCertPathBuilderImpl could not build a valid CertPath.; internal cause is: 
+	java.security.cert.CertPathValidatorException: The certificate issued by CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US is not trusted; internal cause is: 
+	java.security.cert.CertPathValidatorException: Certificate chaining error
+	at com.ibm.security.cert.PKIXCertPathBuilderImpl.engineBuild(PKIXCertPathBuilderImpl.java:422)
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:268)
+	at com.ibm.jsse2.util.f.a(f.java:49)
+	... 29 more
+Caused by: java.security.cert.CertPathValidatorException: The certificate issued by CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US is not trusted; internal cause is: 
+	java.security.cert.CertPathValidatorException: Certificate chaining error
+	at com.ibm.security.cert.BasicChecker.<init>(BasicChecker.java:111)
+	at com.ibm.security.cert.PKIXCertPathValidatorImpl.engineValidate(PKIXCertPathValidatorImpl.java:199)
+	at com.ibm.security.cert.PKIXCertPathBuilderImpl.myValidator(PKIXCertPathBuilderImpl.java:749)
+	at com.ibm.security.cert.PKIXCertPathBuilderImpl.buildCertPath(PKIXCertPathBuilderImpl.java:661)
+	at com.ibm.security.cert.PKIXCertPathBuilderImpl.engineBuild(PKIXCertPathBuilderImpl.java:368)
+	... 31 more
+Caused by: java.security.cert.CertPathValidatorException: Certificate chaining error
+	at com.ibm.security.cert.CertPathUtil.findIssuer(CertPathUtil.java:316)
+	at com.ibm.security.cert.BasicChecker.<init>(BasicChecker.java:108)
+	... 35 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-11-08 16:30:16.494
+!MESSAGE Connection to http://www.pramati.com/downloads/eclipse/updates/p2.index failed on com.ibm.jsse2.util.h: PKIX path building failed: java.security.cert.CertPathBuilderException: PKIXCertPathBuilderImpl could not build a valid CertPath.; internal cause is: 
+	java.security.cert.CertPathValidatorException: The certificate issued by CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US is not trusted; internal cause is: 
+	java.security.cert.CertPathValidatorException: Certificate chaining error. Retry attempt 0 started
+!STACK 0
+javax.net.ssl.SSLHandshakeException: com.ibm.jsse2.util.h: PKIX path building failed: java.security.cert.CertPathBuilderException: PKIXCertPathBuilderImpl could not build a valid CertPath.; internal cause is: 
+	java.security.cert.CertPathValidatorException: The certificate issued by CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US is not trusted; internal cause is: 
+	java.security.cert.CertPathValidatorException: Certificate chaining error
+	at com.ibm.jsse2.j.a(j.java:12)
+	at com.ibm.jsse2.as.a(as.java:118)
+	at com.ibm.jsse2.C.a(C.java:193)
+	at com.ibm.jsse2.C.a(C.java:245)
+	at com.ibm.jsse2.D.a(D.java:242)
+	at com.ibm.jsse2.D.a(D.java:56)
+	at com.ibm.jsse2.C.r(C.java:69)
+	at com.ibm.jsse2.C.a(C.java:580)
+	at com.ibm.jsse2.as.a(as.java:512)
+	at com.ibm.jsse2.as.i(as.java:969)
+	at com.ibm.jsse2.as.a(as.java:176)
+	at com.ibm.jsse2.h.write(h.java:36)
+	at org.apache.http.impl.io.AbstractSessionOutputBuffer.flushBuffer(AbstractSessionOutputBuffer.java:159)
+	at org.apache.http.impl.io.AbstractSessionOutputBuffer.flush(AbstractSessionOutputBuffer.java:166)
+	at org.apache.http.impl.AbstractHttpClientConnection.doFlush(AbstractHttpClientConnection.java:272)
+	at org.apache.http.impl.AbstractHttpClientConnection.flush(AbstractHttpClientConnection.java:277)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.flush(AbstractClientConnAdapter.java:201)
+	at org.apache.http.protocol.HttpRequestExecutor.doSendRequest(HttpRequestExecutor.java:239)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.jsse2.util.h: PKIX path building failed: java.security.cert.CertPathBuilderException: PKIXCertPathBuilderImpl could not build a valid CertPath.; internal cause is: 
+	java.security.cert.CertPathValidatorException: The certificate issued by CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US is not trusted; internal cause is: 
+	java.security.cert.CertPathValidatorException: Certificate chaining error
+	at com.ibm.jsse2.util.f.a(f.java:35)
+	at com.ibm.jsse2.util.f.b(f.java:96)
+	at com.ibm.jsse2.util.e.a(e.java:19)
+	at com.ibm.jsse2.aA.a(aA.java:132)
+	at com.ibm.jsse2.aA.a(aA.java:39)
+	at com.ibm.jsse2.aA.checkServerTrusted(aA.java:27)
+	at com.ibm.jsse2.D.a(D.java:110)
+	... 23 more
+Caused by: java.security.cert.CertPathBuilderException: PKIXCertPathBuilderImpl could not build a valid CertPath.; internal cause is: 
+	java.security.cert.CertPathValidatorException: The certificate issued by CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US is not trusted; internal cause is: 
+	java.security.cert.CertPathValidatorException: Certificate chaining error
+	at com.ibm.security.cert.PKIXCertPathBuilderImpl.engineBuild(PKIXCertPathBuilderImpl.java:422)
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:268)
+	at com.ibm.jsse2.util.f.a(f.java:49)
+	... 29 more
+Caused by: java.security.cert.CertPathValidatorException: The certificate issued by CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US is not trusted; internal cause is: 
+	java.security.cert.CertPathValidatorException: Certificate chaining error
+	at com.ibm.security.cert.BasicChecker.<init>(BasicChecker.java:111)
+	at com.ibm.security.cert.PKIXCertPathValidatorImpl.engineValidate(PKIXCertPathValidatorImpl.java:199)
+	at com.ibm.security.cert.PKIXCertPathBuilderImpl.myValidator(PKIXCertPathBuilderImpl.java:749)
+	at com.ibm.security.cert.PKIXCertPathBuilderImpl.buildCertPath(PKIXCertPathBuilderImpl.java:661)
+	at com.ibm.security.cert.PKIXCertPathBuilderImpl.engineBuild(PKIXCertPathBuilderImpl.java:368)
+	... 31 more
+Caused by: java.security.cert.CertPathValidatorException: Certificate chaining error
+	at com.ibm.security.cert.CertPathUtil.findIssuer(CertPathUtil.java:316)
+	at com.ibm.security.cert.BasicChecker.<init>(BasicChecker.java:108)
+	... 35 more
+
+!ENTRY org.eclipse.ui 4 4 2019-11-08 16:30:26.351
+!MESSAGE Unable to process element: view in perspective extension: null
