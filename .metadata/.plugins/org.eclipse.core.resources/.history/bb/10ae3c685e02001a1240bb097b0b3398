@@ -1,0 +1,83 @@
+public class Imovel
+{
+	// Atributos
+	int id;
+	float preco;
+	string endereco;
+	string status;		=> Disponivel, Vendido, Alugado
+	string descricao
+	string foto
+	
+	// Construtor
+	public Vendedor(int id, float preco, string endereco, string status, string descricao, string foto)
+	{
+		this.id = id;
+		this.preco = preco;
+		this.endereco = endereco;
+		this status = status;
+		this descricao = descricao;
+		this.foto = foto;
+	}
+
+	// Getters
+	public getId()
+	{
+		return id;
+	}
+
+	public getPreco()
+	{
+		return preco;
+	}
+
+	public getEndereco()
+	{
+		return endereco;
+	}
+
+	public getStatus()
+	{
+		return status;
+	}
+
+	public getDescricao()
+	{
+		return descricao;
+	}
+
+	public getFoto()
+	{
+		return foto;
+	}
+
+	// Setters
+	public setId(int id)
+	{
+		this.id = id
+	}
+
+	public setPreco(float preco)
+	{
+		this.preco = preco
+	}
+
+	public setEndereco(string endereco)
+	{
+		this.endereco = endereco
+	}
+
+	public setStatus(string status)
+	{
+		this.status = status
+	}
+
+	public setDescricao(string descricao)
+	{
+		this.descricao = descricao
+	}
+
+	public setFoto(string foto)
+	{
+		this.foto = foto
+	}
+}

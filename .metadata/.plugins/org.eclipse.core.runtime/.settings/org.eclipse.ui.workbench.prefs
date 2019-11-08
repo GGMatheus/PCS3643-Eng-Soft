@@ -1,2 +1,5 @@
+//org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false
 PLUGINS_NOT_ACTIVATED_ON_STARTUP=org.eclipse.m2e.discovery;
+UIActivities.com.ibm.rational.rad.WebDevelopment=true
+UIActivities.com.ibm.rational.rad.XMLDevelopment=true
 eclipse.preferences.version=1
