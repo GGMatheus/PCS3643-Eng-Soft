@@ -16,6 +16,13 @@ public class Locador
 		this.email = email;
 		this.CPF = CPF;
 	}
+	
+	public Locador(String nome, String email, String CPF)
+	{
+		this.nome = nome;
+		this.email = email;
+		this.CPF = CPF;
+	}
 
 	// Getters
 	public int getId()

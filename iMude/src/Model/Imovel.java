@@ -20,6 +20,15 @@ public class Imovel
 		this.descricao = descricao;
 		this.foto = foto;
 	}
+	
+	public Imovel(float preco, String endereco, String status, String descricao, String foto)
+	{
+		this.preco = preco;
+		this.endereco = endereco;
+		this.status = status;
+		this.descricao = descricao;
+		this.foto = foto;
+	}
 
 	// Getters
 	public int getId()
