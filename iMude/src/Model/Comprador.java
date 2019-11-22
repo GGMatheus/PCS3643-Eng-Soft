@@ -58,4 +58,9 @@ public class Comprador
 	{
 		this.CPF = CPF;
 	}
+
+	public String getData() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
