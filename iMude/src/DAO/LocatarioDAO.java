@@ -8,23 +8,23 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import Model.Imovel;
+import Model.Locatario;
 
 
-public class ImovelDAO {
+public class LocatarioDAO {
 	private String jdbcURL = "jdbc:mariadb://db-labsoft.ml:3306/t1g5?useSSL=false";
 	private String jdbcUsername = "t1g5";
 	private String jdbcPassword = "VnzHBEh";
 	
-	private static final String INSERT_IMOVEL_SQL = "INSERT INTO Imoveis" + "  (preco, endereco, status, descricao, foto) VALUES "
-			+ " (?, ?, ?, ?, ?);";
+	private static final String INSERT_LOCATARIO_SQL = "INSERT INTO Locatarios" + "  (nome, email, CPF) VALUES "
+			+ " (?, ?, ?);";
 
-	private static final String SELECT_IMOVEL_BY_ID = "select id, preco, endereco, status, descricao, foto from Imoveis where id =?";
-	private static final String SELECT_ALL_IMOVEIS = "select * from Imoveis";
-	private static final String DELETE_IMOVEL_SQL = "delete from Imoveis where id = ?;";
-	private static final String UPDATE_IMOVEL_SQL = "update Imoveis set preco = ?, endereco = ?, status = ?, descricao = ?, foto = ? where id = ?;";
+	private static final String SELECT_LOCATARIO_BY_ID = "select id, nome, email, CPF from Locatarios where id =?";
+	private static final String SELECT_ALL_LOCATARIOS = "select * from Locatarios";
+	private static final String DELETE_LOCATARIO_SQL = "delete from Locatarios where id = ?;";
+	private static final String UPDATE_LOCATARIO_SQL = "update Locatarios set nome = ?, email = ?, CPF = ? where id = ?;";
 	
-	public ImovelDAO() {
+	public LocatarioDAO() {
 		
 	}
 	
@@ -44,16 +44,14 @@ public class ImovelDAO {
 		return connection;
 	}
 	
-	public void insertImovel(Imovel imovel) throws SQLException {
-		System.out.println(INSERT_IMOVEL_SQL);
+	public void insertLocatario(Locatario locatario) throws SQLException {
+		System.out.println(INSERT_LOCATARIO_SQL);
 		// try-with-resource statement will auto close the connection.
 		try (Connection connection = getConnection();
-				PreparedStatement preparedStatement = connection.prepareStatement(INSERT_IMOVEL_SQL)) {
-			preparedStatement.setFloat(1, imovel.getPreco());
-			preparedStatement.setString(2, imovel.getEndereco());
-			preparedStatement.setString(3, imovel.getStatus());
-			preparedStatement.setString(4, imovel.getDescricao());
-			preparedStatement.setString(5, imovel.getFoto());
+				PreparedStatement preparedStatement = connection.prepareStatement(INSERT_LOCATARIO_SQL)) {
+			preparedStatement.setString(1, locatario.getNome());
+			preparedStatement.setString(2, locatario.getEmail());
+			preparedStatement.setString(3, locatario.getCPF());
 			System.out.println(preparedStatement);
 			preparedStatement.executeUpdate();
 		} catch (SQLException e) {
@@ -61,12 +59,12 @@ public class ImovelDAO {
 		}
 	}
 
-	public Imovel selectImovel(int id) {
-		Imovel imovel = null;
+	public Locatario selectLocatario(int id) {
+		Locatario locatario = null;
 		// Step 1: Establishing a Connection
 		try (Connection connection = getConnection();
 				// Step 2:Create a statement using connection object
-				PreparedStatement preparedStatement = connection.prepareStatement(SELECT_IMOVEL_BY_ID);) {
+				PreparedStatement preparedStatement = connection.prepareStatement(SELECT_LOCATARIO_BY_ID);) {
 			preparedStatement.setInt(1, id);
 			System.out.println(preparedStatement);
 			// Step 3: Execute the query or update query
@@ -74,28 +72,26 @@ public class ImovelDAO {
 
 			// Step 4: Process the ResultSet object.
 			while (rs.next()) {
-				Float preco = rs.getFloat("preco");
-				String endereco = rs.getString("endereco");
-				String status = rs.getString("status");
-				String descricao = rs.getString("descricao");
-				String foto = rs.getString("foto");
-				imovel = new Imovel(id, preco, endereco, status, descricao, foto);
+				String nome = rs.getString("nome");
+				String email = rs.getString("email");
+				String cpf = rs.getString("cpf");
+				locatario = new Locatario(id, nome, email, cpf);
 			}
 		} catch (SQLException e) {
 			printSQLException(e);
 		}
-		return imovel;
+		return locatario;
 	}
 
-	public List<Imovel> selectAllImoveis() {
+	public List<Locatario> selectAllLocatarios() {
 
 		// using try-with-resources to avoid closing resources (boiler plate code)
-		List<Imovel> imoveis = new ArrayList<>();
+		List<Locatario> locatarios = new ArrayList<>();
 		// Step 1: Establishing a Connection
 		try (Connection connection = getConnection();
 
 				// Step 2:Create a statement using connection object
-			PreparedStatement preparedStatement = connection.prepareStatement(SELECT_ALL_IMOVEIS);) {
+			PreparedStatement preparedStatement = connection.prepareStatement(SELECT_ALL_LOCATARIOS);) {
 			System.out.println(preparedStatement);
 			// Step 3: Execute the query or update query
 			ResultSet rs = preparedStatement.executeQuery();
@@ -103,39 +99,35 @@ public class ImovelDAO {
 			// Step 4: Process the ResultSet object.
 			while (rs.next()) {
 				int id = rs.getInt("id");
-				Float preco = rs.getFloat("preco");
-				String endereco = rs.getString("endereco");
-				String status = rs.getString("status");
-				String descricao = rs.getString("descricao");
-				String foto = rs.getString("foto");
-				imoveis.add(new Imovel(id, preco, endereco, status, descricao, foto));
+				String nome = rs.getString("nome");
+				String email = rs.getString("email");
+				String cpf = rs.getString("cpf");
+				locatarios.add(new Locatario(id, nome, email, cpf));
 			}
 		} catch (SQLException e) {
 			printSQLException(e);
 		}
-		return imoveis;
+		return locatarios;
 	}
 
-	public boolean deleteImovel(int id) throws SQLException {
+	public boolean deleteLocatario(int id) throws SQLException {
 		boolean rowDeleted;
 		try (Connection connection = getConnection();
-				PreparedStatement statement = connection.prepareStatement(DELETE_IMOVEL_SQL);) {
+				PreparedStatement statement = connection.prepareStatement(DELETE_LOCATARIO_SQL);) {
 			statement.setInt(1, id);
 			rowDeleted = statement.executeUpdate() > 0;
 		}
 		return rowDeleted;
 	}
 
-	public boolean updateImovel(Imovel imovel) throws SQLException {
+	public boolean updateLocatario(Locatario locatario) throws SQLException {
 		boolean rowUpdated;
 		try (Connection connection = getConnection();
-				PreparedStatement statement = connection.prepareStatement(UPDATE_IMOVEL_SQL);) {
-			statement.setFloat(1, imovel.getPreco());
-			statement.setString(2, imovel.getEndereco());
-			statement.setString(3,  imovel.getStatus());
-			statement.setString(4, imovel.getDescricao());
-			statement.setString(5,  imovel.getFoto());
-			statement.setInt(6, imovel.getId());
+				PreparedStatement statement = connection.prepareStatement(UPDATE_LOCATARIO_SQL);) {
+			statement.setString(1, locatario.getNome());
+			statement.setString(2,  locatario.getEmail());
+			statement.setString(3, locatario.getCPF());
+			statement.setInt(4, locatario.getId());
 
 			rowUpdated = statement.executeUpdate() > 0;
 		}

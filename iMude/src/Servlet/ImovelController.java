@@ -55,51 +55,57 @@ public class ImovelController {
 			throw new ServletException(ex);
 		}
 	}
-// Listar usuarios
+// Listar imoveis
 	private void listImovel(HttpServletRequest request, HttpServletResponse response)
 			throws SQLException, IOException, ServletException {
-		List<Contrato> listImovel = imovelDAO.selectAllContratos();
+		List<Imovel> listImovel = imovelDAO.selectAllImoveis();
 		request.setAttribute("listImovel", listImovel);
 		RequestDispatcher dispatcher = request.getRequestDispatcher("imovel-list.jsp");
 		dispatcher.forward(request, response);
 	}
-// Mostrar formulario
+// Mostrar imovel
 	private void showNewForm(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		RequestDispatcher dispatcher = request.getRequestDispatcher("imovel-form.jsp");
 		dispatcher.forward(request, response);
 	}
-// Mostrar forumulario para edição
+// Mostrar imovel para edição
 	private void showEditForm(HttpServletRequest request, HttpServletResponse response)
 			throws SQLException, ServletException, IOException {
 		int id = Integer.parseInt(request.getParameter("id"));
-		Contrato existingUser = imovelDAO.selectImovel(id);
+		Imovel existingUser = imovelDAO.selectImovel(id);
 		RequestDispatcher dispatcher = request.getRequestDispatcher("imovel-form.jsp");
 		request.setAttribute("imovel", existingUser);
 		dispatcher.forward(request, response);
 
 	}
-// Inserção de Usuario
+// Inserção de imovel
 	private void insertImovel(HttpServletRequest request, HttpServletResponse response) 
 			throws SQLException, IOException {
-		String data = request.getParameter("data");
+		Float preco = Float.valueOf(request.getParameter("preco"));
+		String endereco = request.getParameter("endereco");
+		String status = request.getParameter("status");
 		String descricao = request.getParameter("descricao");
-		Imovel newImovel = new Imovel(data, descricao);
-		imovelDAO.insertContrato(newImovel);
+		String foto = request.getParameter("foto");
+		Imovel newImovel = new Imovel(preco, endereco, status, descricao, foto);
+		imovelDAO.insertImovel(newImovel);
 		response.sendRedirect("list");
 	}
-// Atualização de Usuario
+// Atualização de imovel
 	private void updateImovel(HttpServletRequest request, HttpServletResponse response) 
 			throws SQLException, IOException {
 		int id = Integer.parseInt(request.getParameter("id"));
-		String data = request.getParameter("data");
+		Float preco = Float.valueOf(request.getParameter("preco"));
+		String endereco = request.getParameter("endereco");
+		String status = request.getParameter("status");
 		String descricao = request.getParameter("descricao");
+		String foto = request.getParameter("foto");
 
-		Imovel book = new Imovel(id, data, descricao);
-		imovelDAO.updateContrato(book);
+		Imovel imovel = new Imovel(id, preco, endereco, status, descricao, foto);
+		imovelDAO.updateImovel(imovel);
 		response.sendRedirect("list");
 	}
-// Eliminar Usuario
+// Eliminar imovel
 	private void deleteImovel(HttpServletRequest request, HttpServletResponse response) 
 			throws SQLException, IOException {
 		int id = Integer.parseInt(request.getParameter("id"));
