@@ -16,6 +16,13 @@ public class Gerente
 		this.email = email;
 		this.CPF = CPF;
 	}
+	
+	public Gerente(String nome, String email, String CPF)
+	{
+		this.nome = nome;
+		this.email = email;
+		this.CPF = CPF;
+	}
 
 	// Getters
 	public int getId()
