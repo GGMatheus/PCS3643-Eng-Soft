@@ -26,7 +26,7 @@
             <caption>
             	<h2>
             		<c:if test="${user == null}"><div align="center">
-            			Plano de pagamento
+            			Acompanhamento de pagamento
             		</c:if>
             	</h2>
             </caption>
@@ -51,7 +51,7 @@
             </tr>
             <tr>
             	<td colspan="2" align="center">
-            		<input type="submit" value="Send" />
+            		<input type="submit" value="Enviar" />
             	</td>
             </tr>
         </table>        
@@ -62,43 +62,7 @@
             <caption>
             	<h2>
             		<c:if test="${user == null}"><div align="center">
-            			Controle de parcelas
-            		</c:if>
-            	</h2>
-            </caption>
-        		<c:if test="${user != null}">
-        			<input type="hidden" name="id" value="<c:out value='${user.id}' />" />
-        		</c:if>            
-            <tr>
-                <th>Parcelas pagas: </th>
-                <td>
-                	<input type="number" name="price" size="45"
-                			value="<c:out value='${visita.price}' />"
-                		/>
-                </td>
-            </tr>
-            <tr>
-                <th>Parcelas faltantes: </th>
-                <td>
-                	<input type="number" name="price" size="45"
-                			value="<c:out value='${visita.price}' />"
-                		/>
-                </td>
-            </tr>
-            <tr>
-            	<td colspan="2" align="center">
-            		<input type="submit" value="Send" />
-            	</td>
-            </tr>
-        </table>      
-        </form>
-    </div>
-    <div align="center">
-        <table border="1" cellpadding="5">
-            <caption>
-            	<h2>
-            		<c:if test="${user == null}"><div align="center">
-            			Acompanhamento das Parcelas
+            			Contratar compra ou venda
             		</c:if>
             	</h2>
             </caption>
@@ -122,11 +86,12 @@
             </tr>
             <tr>
             	<td colspan="2" align="center">
-            		<input type="submit" value="Send" />
+            		<input type="submit" value="Enviar" />
             	</td>
             </tr>
         </table>      
         </form>
-    </div>	
+    </div>
+    	
 </body>
 </html>

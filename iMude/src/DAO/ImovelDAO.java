@@ -16,13 +16,13 @@ public class ImovelDAO {
 	private String jdbcUsername = "t1g5";
 	private String jdbcPassword = "VnzHBEh";
 	
-	private static final String INSERT_IMOVEL_SQL = "INSERT INTO Imoveis" + "  (preco, endereco, status, descricao, foto) VALUES "
-			+ " (?, ?, ?, ?, ?);";
+	private static final String INSERT_IMOVEL_SQL = "INSERT INTO Imoveis" + "  (preco, endereco, status, descricao, foto, data) VALUES "
+			+ " (?, ?, ?, ?, ?, ?);";
 
-	private static final String SELECT_IMOVEL_BY_ID = "select id, preco, endereco, status, descricao, foto from Imoveis where id =?";
+	private static final String SELECT_IMOVEL_BY_ID = "select id, preco, endereco, status, descricao, foto, data from Imoveis where id =?";
 	private static final String SELECT_ALL_IMOVEIS = "select * from Imoveis";
 	private static final String DELETE_IMOVEL_SQL = "delete from Imoveis where id = ?;";
-	private static final String UPDATE_IMOVEL_SQL = "update Imoveis set preco = ?, endereco = ?, status = ?, descricao = ?, foto = ? where id = ?;";
+	private static final String UPDATE_IMOVEL_SQL = "update Imoveis set preco = ?, endereco = ?, status = ?, descricao = ?, foto = ?, data = ? where id = ?;";
 	
 	public ImovelDAO() {
 		
@@ -54,6 +54,7 @@ public class ImovelDAO {
 			preparedStatement.setString(3, imovel.getStatus());
 			preparedStatement.setString(4, imovel.getDescricao());
 			preparedStatement.setString(5, imovel.getFoto());
+			preparedStatement.setInt(6, imovel.getData());
 			System.out.println(preparedStatement);
 			preparedStatement.executeUpdate();
 		} catch (SQLException e) {
@@ -79,7 +80,8 @@ public class ImovelDAO {
 				String status = rs.getString("status");
 				String descricao = rs.getString("descricao");
 				String foto = rs.getString("foto");
-				imovel = new Imovel(id, preco, endereco, status, descricao, foto);
+				int data = rs.getInt("data");
+				imovel = new Imovel(id, preco, endereco, status, descricao, foto, data);
 			}
 		} catch (SQLException e) {
 			printSQLException(e);
@@ -108,7 +110,8 @@ public class ImovelDAO {
 				String status = rs.getString("status");
 				String descricao = rs.getString("descricao");
 				String foto = rs.getString("foto");
-				imoveis.add(new Imovel(id, preco, endereco, status, descricao, foto));
+				int data = rs.getInt("data");
+				imoveis.add(new Imovel(id, preco, endereco, status, descricao, foto, data));
 			}
 		} catch (SQLException e) {
 			printSQLException(e);

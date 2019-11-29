@@ -17,7 +17,7 @@ import Model.Visita;
 /**
  * Servlet implementation class TesteEntidade
  */
-@WebServlet("/TesteEntidade")
+@WebServlet("/")
 public class VisitasController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private VisitaDAO visitaDAO;

@@ -1564,3 +1564,152 @@ java.lang.NullPointerException
 	at com.ibm.etools.rpe.internal.model.adapters.StructuralChangeUpdaterJob$1.run(StructuralChangeUpdaterJob.java:132)
 	at com.ibm.etools.rpe.internal.model.adapters.StructuralChangeUpdaterJob.run(StructuralChangeUpdaterJob.java:139)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2019-11-29 18:10:37.578
+!MESSAGE already installed: com.ibm.ws.st.server.wlp
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2019-11-29 18:10:37.578
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-11-29 18:10:38.578
+!MESSAGE Connection to http://www.pramati.com/downloads/eclipse/updates/site.xml failed on com.ibm.jsse2.util.h: PKIX path building failed: java.security.cert.CertPathBuilderException: PKIXCertPathBuilderImpl could not build a valid CertPath.; internal cause is: 
+	java.security.cert.CertPathValidatorException: The certificate issued by CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US is not trusted; internal cause is: 
+	java.security.cert.CertPathValidatorException: Certificate chaining error. Retry attempt 0 started
+!STACK 0
+javax.net.ssl.SSLHandshakeException: com.ibm.jsse2.util.h: PKIX path building failed: java.security.cert.CertPathBuilderException: PKIXCertPathBuilderImpl could not build a valid CertPath.; internal cause is: 
+	java.security.cert.CertPathValidatorException: The certificate issued by CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US is not trusted; internal cause is: 
+	java.security.cert.CertPathValidatorException: Certificate chaining error
+	at com.ibm.jsse2.j.a(j.java:12)
+	at com.ibm.jsse2.as.a(as.java:118)
+	at com.ibm.jsse2.C.a(C.java:193)
+	at com.ibm.jsse2.C.a(C.java:245)
+	at com.ibm.jsse2.D.a(D.java:242)
+	at com.ibm.jsse2.D.a(D.java:56)
+	at com.ibm.jsse2.C.r(C.java:69)
+	at com.ibm.jsse2.C.a(C.java:580)
+	at com.ibm.jsse2.as.a(as.java:512)
+	at com.ibm.jsse2.as.i(as.java:969)
+	at com.ibm.jsse2.as.a(as.java:176)
+	at com.ibm.jsse2.h.write(h.java:36)
+	at org.apache.http.impl.io.AbstractSessionOutputBuffer.flushBuffer(AbstractSessionOutputBuffer.java:159)
+	at org.apache.http.impl.io.AbstractSessionOutputBuffer.flush(AbstractSessionOutputBuffer.java:166)
+	at org.apache.http.impl.AbstractHttpClientConnection.doFlush(AbstractHttpClientConnection.java:272)
+	at org.apache.http.impl.AbstractHttpClientConnection.flush(AbstractHttpClientConnection.java:277)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.flush(AbstractClientConnAdapter.java:201)
+	at org.apache.http.protocol.HttpRequestExecutor.doSendRequest(HttpRequestExecutor.java:239)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.jsse2.util.h: PKIX path building failed: java.security.cert.CertPathBuilderException: PKIXCertPathBuilderImpl could not build a valid CertPath.; internal cause is: 
+	java.security.cert.CertPathValidatorException: The certificate issued by CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US is not trusted; internal cause is: 
+	java.security.cert.CertPathValidatorException: Certificate chaining error
+	at com.ibm.jsse2.util.f.a(f.java:35)
+	at com.ibm.jsse2.util.f.b(f.java:96)
+	at com.ibm.jsse2.util.e.a(e.java:19)
+	at com.ibm.jsse2.aA.a(aA.java:132)
+	at com.ibm.jsse2.aA.a(aA.java:39)
+	at com.ibm.jsse2.aA.checkServerTrusted(aA.java:27)
+	at com.ibm.jsse2.D.a(D.java:110)
+	... 23 more
+Caused by: java.security.cert.CertPathBuilderException: PKIXCertPathBuilderImpl could not build a valid CertPath.; internal cause is: 
+	java.security.cert.CertPathValidatorException: The certificate issued by CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US is not trusted; internal cause is: 
+	java.security.cert.CertPathValidatorException: Certificate chaining error
+	at com.ibm.security.cert.PKIXCertPathBuilderImpl.engineBuild(PKIXCertPathBuilderImpl.java:422)
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:268)
+	at com.ibm.jsse2.util.f.a(f.java:49)
+	... 29 more
+Caused by: java.security.cert.CertPathValidatorException: The certificate issued by CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US is not trusted; internal cause is: 
+	java.security.cert.CertPathValidatorException: Certificate chaining error
+	at com.ibm.security.cert.BasicChecker.<init>(BasicChecker.java:111)
+	at com.ibm.security.cert.PKIXCertPathValidatorImpl.engineValidate(PKIXCertPathValidatorImpl.java:199)
+	at com.ibm.security.cert.PKIXCertPathBuilderImpl.myValidator(PKIXCertPathBuilderImpl.java:749)
+	at com.ibm.security.cert.PKIXCertPathBuilderImpl.buildCertPath(PKIXCertPathBuilderImpl.java:661)
+	at com.ibm.security.cert.PKIXCertPathBuilderImpl.engineBuild(PKIXCertPathBuilderImpl.java:368)
+	... 31 more
+Caused by: java.security.cert.CertPathValidatorException: Certificate chaining error
+	at com.ibm.security.cert.CertPathUtil.findIssuer(CertPathUtil.java:316)
+	at com.ibm.security.cert.BasicChecker.<init>(BasicChecker.java:108)
+	... 35 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-11-29 18:10:40.406
+!MESSAGE Connection to http://www.pramati.com/downloads/eclipse/updates/p2.index failed on com.ibm.jsse2.util.h: PKIX path building failed: java.security.cert.CertPathBuilderException: PKIXCertPathBuilderImpl could not build a valid CertPath.; internal cause is: 
+	java.security.cert.CertPathValidatorException: The certificate issued by CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US is not trusted; internal cause is: 
+	java.security.cert.CertPathValidatorException: Certificate chaining error. Retry attempt 0 started
+!STACK 0
+javax.net.ssl.SSLHandshakeException: com.ibm.jsse2.util.h: PKIX path building failed: java.security.cert.CertPathBuilderException: PKIXCertPathBuilderImpl could not build a valid CertPath.; internal cause is: 
+	java.security.cert.CertPathValidatorException: The certificate issued by CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US is not trusted; internal cause is: 
+	java.security.cert.CertPathValidatorException: Certificate chaining error
+	at com.ibm.jsse2.j.a(j.java:12)
+	at com.ibm.jsse2.as.a(as.java:118)
+	at com.ibm.jsse2.C.a(C.java:193)
+	at com.ibm.jsse2.C.a(C.java:245)
+	at com.ibm.jsse2.D.a(D.java:242)
+	at com.ibm.jsse2.D.a(D.java:56)
+	at com.ibm.jsse2.C.r(C.java:69)
+	at com.ibm.jsse2.C.a(C.java:580)
+	at com.ibm.jsse2.as.a(as.java:512)
+	at com.ibm.jsse2.as.i(as.java:969)
+	at com.ibm.jsse2.as.a(as.java:176)
+	at com.ibm.jsse2.h.write(h.java:36)
+	at org.apache.http.impl.io.AbstractSessionOutputBuffer.flushBuffer(AbstractSessionOutputBuffer.java:159)
+	at org.apache.http.impl.io.AbstractSessionOutputBuffer.flush(AbstractSessionOutputBuffer.java:166)
+	at org.apache.http.impl.AbstractHttpClientConnection.doFlush(AbstractHttpClientConnection.java:272)
+	at org.apache.http.impl.AbstractHttpClientConnection.flush(AbstractHttpClientConnection.java:277)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.flush(AbstractClientConnAdapter.java:201)
+	at org.apache.http.protocol.HttpRequestExecutor.doSendRequest(HttpRequestExecutor.java:239)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.jsse2.util.h: PKIX path building failed: java.security.cert.CertPathBuilderException: PKIXCertPathBuilderImpl could not build a valid CertPath.; internal cause is: 
+	java.security.cert.CertPathValidatorException: The certificate issued by CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US is not trusted; internal cause is: 
+	java.security.cert.CertPathValidatorException: Certificate chaining error
+	at com.ibm.jsse2.util.f.a(f.java:35)
+	at com.ibm.jsse2.util.f.b(f.java:96)
+	at com.ibm.jsse2.util.e.a(e.java:19)
+	at com.ibm.jsse2.aA.a(aA.java:132)
+	at com.ibm.jsse2.aA.a(aA.java:39)
+	at com.ibm.jsse2.aA.checkServerTrusted(aA.java:27)
+	at com.ibm.jsse2.D.a(D.java:110)
+	... 23 more
+Caused by: java.security.cert.CertPathBuilderException: PKIXCertPathBuilderImpl could not build a valid CertPath.; internal cause is: 
+	java.security.cert.CertPathValidatorException: The certificate issued by CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US is not trusted; internal cause is: 
+	java.security.cert.CertPathValidatorException: Certificate chaining error
+	at com.ibm.security.cert.PKIXCertPathBuilderImpl.engineBuild(PKIXCertPathBuilderImpl.java:422)
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:268)
+	at com.ibm.jsse2.util.f.a(f.java:49)
+	... 29 more
+Caused by: java.security.cert.CertPathValidatorException: The certificate issued by CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US is not trusted; internal cause is: 
+	java.security.cert.CertPathValidatorException: Certificate chaining error
+	at com.ibm.security.cert.BasicChecker.<init>(BasicChecker.java:111)
+	at com.ibm.security.cert.PKIXCertPathValidatorImpl.engineValidate(PKIXCertPathValidatorImpl.java:199)
+	at com.ibm.security.cert.PKIXCertPathBuilderImpl.myValidator(PKIXCertPathBuilderImpl.java:749)
+	at com.ibm.security.cert.PKIXCertPathBuilderImpl.buildCertPath(PKIXCertPathBuilderImpl.java:661)
+	at com.ibm.security.cert.PKIXCertPathBuilderImpl.engineBuild(PKIXCertPathBuilderImpl.java:368)
+	... 31 more
+Caused by: java.security.cert.CertPathValidatorException: Certificate chaining error
+	at com.ibm.security.cert.CertPathUtil.findIssuer(CertPathUtil.java:316)
+	at com.ibm.security.cert.BasicChecker.<init>(BasicChecker.java:108)
+	... 35 more
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2019-11-29 18:13:10.688
+!MESSAGE already installed: com.ibm.ws.st.server.wlp
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2019-11-29 18:13:10.688
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+
+!ENTRY org.eclipse.jface.text 2 0 2019-11-29 18:18:54.771
+!MESSAGE Duplicate template id: 'com.ibm.datatools.sqlxeditor.templates.xmlnamespaces2'

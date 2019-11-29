@@ -39,7 +39,15 @@
             </caption>
         		<c:if test="${imovel != null}">
         			<input type="hidden" name="id" value="<c:out value='${imovel.id}' />" />
-        		</c:if>            
+        		</c:if>
+        	<tr>
+                <th>Imovel Id: </th>
+                <td>
+                	<input type="int" name="id" size="45"
+                			value="<c:out value='${imovel.id}' />"
+                		/>
+                </td>
+            </tr>            
             <tr>
                 <th>Imovel Preço: </th>
                 <td>
