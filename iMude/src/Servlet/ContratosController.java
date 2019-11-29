@@ -17,7 +17,7 @@ import Model.Contrato;
 /**
  * Servlet implementation class TesteEntidade
  */
-@WebServlet("/TesteEntidade")
+//@WebServlet("/TesteEntidade")
 public class ContratosController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private ContratoDAO contratoDAO;

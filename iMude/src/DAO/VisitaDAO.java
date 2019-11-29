@@ -109,8 +109,7 @@ public class VisitaDAO {
 				int idComprador = rs.getInt("idComprador");
 				int idLocatario = rs.getInt("idLocatario");
 				String data = rs.getString("data");
-				String descricao = rs.getString("descricao");
-				visitas.add(new Visita(id, idImovel, idCorretor, idComprador, idLocatario, data, descricao));
+				visitas.add(new Visita(id, idImovel, idCorretor, idComprador, idLocatario, data));
 			}
 		} catch (SQLException e) {
 			printSQLException(e);

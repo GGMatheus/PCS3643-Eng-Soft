@@ -87,7 +87,8 @@ public class ImovelController {
 		String status = request.getParameter("status");
 		String descricao = request.getParameter("descricao");
 		String foto = request.getParameter("foto");
-		Imovel newImovel = new Imovel(preco, endereco, status, descricao, foto);
+		int data = Integer.parseInt(request.getParameter("data"));
+		Imovel newImovel = new Imovel(preco, endereco, status, descricao, foto, data);
 		imovelDAO.insertImovel(newImovel);
 		response.sendRedirect("list");
 	}
@@ -100,8 +101,9 @@ public class ImovelController {
 		String status = request.getParameter("status");
 		String descricao = request.getParameter("descricao");
 		String foto = request.getParameter("foto");
+		int data = Integer.parseInt(request.getParameter("data"));
 
-		Imovel imovel = new Imovel(id, preco, endereco, status, descricao, foto);
+		Imovel imovel = new Imovel(id, preco, endereco, status, descricao, foto, data);
 		imovelDAO.updateImovel(imovel);
 		response.sendRedirect("list");
 	}
