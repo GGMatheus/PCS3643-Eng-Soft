@@ -1,0 +1,37 @@
+INDEX VERSION 1.129
+file:/C:/Users/9373372/.Rational/IDE/IRuntime/2471482576/1046034577.index
+C:\Program Files\IBM\SDP\runtimes\base_v9_stub\optionalLibraries\web2mobile\webmsg_applib.jar
+file:/C:/Users/9373372/.Rational/IDE/IRuntime/2471482576/3225088530.index
+C:\Program Files\IBM\SDP\runtimes\base_v9_stub\dev\xml\xmlapi.jar
+file:/C:/Users/9373372/.Rational/IDE/IRuntime/2471482576/2685245303.index
+C:\Program Files\IBM\SDP\runtimes\base_v9_stub\plugins\javax.ws.rs-api-2.0.jar
+file:/C:/Users/9373372/.Rational/IDE/IRuntime/2471482576/2795105576.index
+C:\Program Files\IBM\SDP\runtimes\base_v9_stub\ola\ola_apis.jar
+file:/C:/Users/9373372/.Rational/IDE/IRuntime/2471482576/50475623.index
+C:\Program Files\IBM\SDP\runtimes\base_v9_stub\plugins\com.ibm.ws.prereq.jaxrs20.jar
+file:/C:/Users/9373372/.Rational/IDE/IRuntime/2471482576/2380484469.index
+C:\Program Files\IBM\SDP\runtimes\base_v9_stub\plugins\com.ibm.ws.prereq.xlxp.jar
+file:/C:/Users/9373372/.Rational/IDE/IRuntime/2471482576/3846305266.index
+C:\Program Files\IBM\SDP\runtimes\base_v9_stub\plugins\org.apache.tuscany.sca.api.jar
+file:/C:/Users/9373372/.Rational/IDE/IRuntime/2471482576/3806449159.index
+C:\Program Files\IBM\SDP\runtimes\base_v9_stub\plugins\com.ibm.ws.batch.runtime.jar
+file:/C:/Users/9373372/.Rational/IDE/IRuntime/2471482576/3909666762.index
+C:\Program Files\IBM\SDP\runtimes\base_v9_stub\dev\swagger\swagger-annotations-1.5.3.jar
+file:/C:/Users/9373372/.Rational/IDE/IRuntime/2471482576/1390473956.index
+C:\Program Files\IBM\SDP\runtimes\base_v9_stub\dev\was_internals.jar
+file:/C:/Users/9373372/.Rational/IDE/IRuntime/2471482576/1601478064.index
+C:\Program Files\IBM\SDP\runtimes\base_v9_stub\plugins\com.ibm.ws.jaxrs20.jar
+file:/C:/Users/9373372/.Rational/IDE/IRuntime/2471482576/4118901518.index
+C:\Program Files\IBM\SDP\runtimes\base_v9_stub\dev\was_public.jar
+file:/C:/Users/9373372/.Rational/IDE/IRuntime/2471482576/1972541651.index
+C:\Program Files\IBM\SDP\runtimes\base_v9_stub\optionalLibraries\web2mobile\rpcadapter\RPCAdapter.jar
+file:/C:/Users/9373372/.Rational/IDE/IRuntime/2471482576/1727599216.index
+C:\Program Files\IBM\SDP\runtimes\base_v9_stub\dev\sca\2.0\sca_api.jar
+file:/C:/Users/9373372/.Rational/IDE/IRuntime/2471482576/116443858.index
+C:\Program Files\IBM\SDP\runtimes\base_v9_stub\optionalLibraries\web2mobile\rpcadapter\RPCAdapter-annotation.jar
+file:/C:/Users/9373372/.Rational/IDE/IRuntime/2471482576/3472186689.index
+C:\Program Files\IBM\SDP\runtimes\base_v9_stub\tivoli\tam\PD.jar
+file:/C:/Users/9373372/.Rational/IDE/IRuntime/2471482576/3314508595.index
+C:\Program Files\IBM\SDP\runtimes\base_v9_stub\dev\was_dependencies.jar
+file:/C:/Users/9373372/.Rational/IDE/IRuntime/2471482576/2005170185.index
+C:\Program Files\IBM\SDP\runtimes\base_v9_stub\dev\sca\1.0\sca_api.jar
