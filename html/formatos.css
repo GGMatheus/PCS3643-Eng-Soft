@@ -1,0 +1,16 @@
+﻿.title {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+
+.especializado {
+    color: black;
+    font-size: 20px;
+    text-align: right;
+}
+
+.tela {
+    background-color: #ADD8E6;
+}
+
